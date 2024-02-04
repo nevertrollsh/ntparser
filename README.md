@@ -14,7 +14,7 @@ $let(hm;Hi Mom)
 hm is $get(hm)
 ]])
 ```
-This parser This will print "hm is Hi Mom". This parser automatically prints the result for you, so you don't have to use $print everytime!
+This will print "hm is Hi Mom". This parser automatically prints the result for you, so you don't have to use $print everytime!
 
 ## Creating Parser Functions
 To create user-made functions in the parser, you can use the `createParserFunc` function like these:
