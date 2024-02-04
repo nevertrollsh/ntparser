@@ -5,9 +5,10 @@ This is a parser, similar to aoi.js, it can parse the strings and convert it int
 ## Using the Parser
 You can use the parser by using the `parse` function like this:
 ```lua
-parse(`
+parse([[
 $let(hm;Hi Mom)
 hm is $get(hm)
+]])
 ```
 This parser This will print "hm is Hi Mom". This parser automatically prints the result for you, so you don't have to use $print everytime!
 
@@ -73,6 +74,6 @@ end
 
 ## Custom Libraries
 This parser has extensive libraries with extensive custom functions.
-|-----|-----|
-| Library Name | Author |
 
+| Library Name | Author |
+|-----|--------|
