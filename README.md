@@ -2,6 +2,10 @@
 
 This is a parser, similar to aoi.js, it can parse the strings and convert it into functions. This is just the base of the parser, so, you can expand it if you want.
 
+## Download this parser
+This parser is compatible with any lua version with the string library.
+Download this parser by clicking [here](parser.lua).
+
 ## Using the Parser
 You can use the parser by using the `parse` function like this:
 ```lua
